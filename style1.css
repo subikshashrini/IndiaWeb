@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Baskerville', serif;
+    cursor: pointer;
+    box-sizing: border-box;
+        
+    
+}
+
+
+#facts{
+    
+    height: 100vh;
+    background: pink;
+}
+
+.fact{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.fact h1{
+    text-align: center;
+    margin: 10px;
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: green;
+}
+
+
+/****row1***/
+
+.row1{
+    width: 100%;
+    height: 33.33%;
+    display: flex;
+
+}
+
+.fact .row1 .fact1{
+    flex-direction: row;
+    width: 33.33%;
+    height: 100%;
+    
+   
+
+
+}
+
+.fact1 .img1 {
+    display: flex;
+    flex-direction: row;
+    
+    width: 90%;
+    height: 80%;
+    margin: 20px;
+    border-radius: 20%;
+    background-color: #fcfcfc;
+    box-shadow: 4px 4px 4px 4px rgb(199, 194, 194);
+    
+   
+}
+
+
+.fact1 .img1:hover{
+    background-color: salmon;
+}
+
+.fact1 .img1 img{
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+    border-radius: 40%;
+   
+}
+
+.fact1 .img1 p{
+    font-size: 13px;
+    margin: 20px;
+    margin-top: 25px;
+    color: black;
+    line-height: 1.5;
+    overflow: hidden;
+
+}
+
+.fact .row1 .fact2{
+    flex-direction: row;
+    width: 33.33%;
+    height: 100%;
+    
+
+
+}
+
+
+.fact2 .img2 {
+    display: flex;
+    flex-direction: row;
+    
+    width: 90%;
+    height: 80%;
+    margin: 20px;
+    border-radius: 20%;
+    background-color: #fcfcfc;
+    box-shadow: 4px 4px 4px 4px rgb(199, 194, 194);
+    
+}
+
+.fact2 .img2:hover{
+    background-color: salmon;
+}
+
+.fact2 .img2 img{
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+    border-radius: 40%;
+   
+}
+
+
+.fact2 .img2 p{
+    font-size: 13px;
+    margin: 20px;
+    margin-top: 25px;
+    color: black;
+    line-height: 1.5;
+    overflow: hidden;
+
+}
+
+
+.fact .row1 .fact3{
+    flex-direction: row;
+    width: 33.33%;
+    height: 100%;
+    
+
+
+}
+
+
+.fact3 .img3 {
+    display: flex;
+    flex-direction: row;
+    
+    width: 90%;
+    height: 80%;
+    margin: 20px;
+    border-radius: 20%;
+    background-color: #fcfcfc;
+    box-shadow: 4px 4px 4px 4px rgb(199, 194, 194);
+    
+}
+
+.fact3 .img3:hover{
+    background-color: salmon;
+}
+
+.fact3 .img3 img{
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+    border-radius: 40%;
+   
+}
+
+
+.fact3 .img3 p{
+    font-size: 13px;
+    margin: 20px;
+    margin-top: 25px;
+    color: black;
+    line-height: 1.5;
+    overflow: hidden;
+
+}
+
+
+/****row2***/
+
+
+.row2{
+    width: 100%;
+    height: 33.33%;
+    
+    display: flex;
+
+}
+
+.fact .row2 .fact4{
+    flex-direction: row;
+    width: 33.33%;
+    height: 100%;
+    
+
+
+}
+
+.fact4 .img4 {
+    display: flex;
+    flex-direction: row;
+    
+    width: 90%;
+    height: 80%;
+    margin: 20px;
+    border-radius: 20%;
+    background-color: #fcfcfc;
+    box-shadow: 4px 4px 4px 4px rgb(199, 194, 194);
+    
+}
+
+.fact4 .img4:hover{
+    background-color: salmon;
+}
+
+.fact4 .img4 img{
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+    border-radius: 40%;
+   
+}
+
+
+.fact4 .img4 p{
+    font-size: 13px;
+    margin: 20px;
+    margin-top: 25px;
+    color: black;
+    line-height: 1.5;
+    overflow: hidden;
+
+}
+
+
+
+
+.fact .row2 .fact5{
+    flex-direction: row;
+    width: 33.33%;
+    height: 100%;
+  
+
+
+}
+
+
+.fact5 .img5 {
+    display: flex;
+    flex-direction: row;
+    
+    width: 90%;
+    height: 80%;
+    margin: 20px;
+    border-radius: 20%;
+    background-color: #fcfcfc;
+    box-shadow: 4px 4px 4px 4px rgb(199, 194, 194);
+    
+}
+
+.fact5 .img5:hover{
+    background-color: salmon;
+}
+
+.fact5 .img5 img{
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+    border-radius: 40%;
+   
+}
+
+
+.fact5 .img5 p{
+    font-size: 13px;
+    margin: 20px;
+    margin-top: 25px;
+    color: black;
+    line-height: 1.5;
+    overflow: hidden;
+
+}
+
+
+.fact .row2 .fact6{
+    flex-direction: row;
+    width: 33.33%;
+    height: 100%;
+    
+
+
+}
+
+
+.fact6 .img6 {
+    display: flex;
+    flex-direction: row;
+    
+    width: 90%;
+    height: 80%;
+    margin: 20px;
+    border-radius: 20%;
+    background-color: #fcfcfc;
+    box-shadow: 4px 4px 4px 4px rgb(199, 194, 194);
+    
+}
+
+.fact6 .img6:hover{
+    background-color: salmon;
+}
+
+.fact6 .img6 img{
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+    border-radius: 40%;
+   
+}
+
+
+.fact6 .img6 p{
+    font-size: 13px;
+    margin: 20px;
+    margin-top: 25px;
+    color: black;
+    line-height: 1.5;
+    overflow: hidden;
+
+}
+
+
+
+/****row3***/
+
+
+.row3{
+    width: 100%;
+    height: 30%;
+    display: flex;
+
+}
+
+.fact .row3 .fact7{
+    flex-direction: row;
+    width: 33.33%;
+    height: 100%;
+    margin: 0px;
+    
+
+
+}
+
+.fact7 .img7 {
+    display: flex;
+    flex-direction: row;
+    
+    width: 90%;
+    height: 80%;
+    margin: 20px;
+    border-radius: 20%;
+    background-color: #fcfcfc;
+    box-shadow: 4px 4px 4px 4px rgb(199, 194, 194);
+    
+}
+
+.fact7 .img7:hover{
+    background-color: salmon;
+}
+
+.fact7 .img7 img{
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+    border-radius: 40%;
+   
+}
+
+
+.fact7 .img7 p{
+    font-size: 13px;
+    margin: 20px;
+    margin-top: 25px;
+    color: black;
+    line-height: 1.5;
+    overflow: hidden;
+
+}
+
+
+.fact .row3 .fact8{
+    flex-direction: row;
+    width: 33.33%;
+    height: 100%;
+    margin: 0px;
+    
+
+
+}
+
+
+
+.fact8 .img8 {
+    display: flex;
+    flex-direction: row;
+    
+    width: 90%;
+    height: 80%;
+    margin: 20px;
+    border-radius: 20%;
+    background-color: #fcfcfc;
+    box-shadow: 4px 4px 4px 4px rgb(199, 194, 194);
+    
+}
+
+.fact8 .img8:hover{
+    background-color: salmon;
+}
+
+.fact8 .img8 img{
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+    border-radius: 40%;
+   
+}
+
+
+.fact8 .img8 p{
+    font-size: 13px;
+    margin: 20px;
+    margin-top: 25px;
+    color: black;
+    line-height: 1.5;
+    overflow: hidden;
+
+}
+
+
+.fact .row3 .fact9{
+    flex-direction: row;
+    width: 33.33%;
+    height: 100%;
+    margin: 0px;
+    
+
+
+}
+
+
+.fact9 .img9 {
+    display: flex;
+    flex-direction: row;
+    
+    width: 90%;
+    height: 80%;
+    margin: 20px;
+    border-radius: 20%;
+    background-color: #fcfcfc;
+    box-shadow: 4px 4px 4px 4px rgb(199, 194, 194);
+    
+}
+
+.fact9 .img9:hover{
+    background-color: salmon;
+}
+
+.fact9 .img9 img{
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+    border-radius: 40%;
+   
+}
+
+
+.fact9 .img9 p{
+    font-size: 13px;
+    margin: 20px;
+    margin-top: 25px;
+    color: black;
+    line-height: 1.5;
+    overflow: hidden;
+
+}
